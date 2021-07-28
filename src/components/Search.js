@@ -50,7 +50,7 @@ const Search = props => {
 		<div>
 			<div className="ui form">
 				<div className="field">
-					<label>Enter Search Term</label>
+					<label>Enter Your Search Term</label>
 					<input className="input" value={ term } onChange={ e => setTerm(e.target.value) } />
 				</div>
 			</div>
